@@ -1,0 +1,1 @@
+Merhaba S3, bu dosya localstack içindir.
