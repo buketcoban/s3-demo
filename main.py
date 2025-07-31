@@ -28,6 +28,6 @@ objects = s3.list_objects_v2(Bucket=bucket_name)
 for obj in objects.get("Contents", []):
     print(f" - {obj['Key']}")
 
-s3.delete_object(Bucket=bucket_name, Key=file_name)
-print(f"Silindi: {file_name}")
+# s3.delete_object(Bucket=bucket_name, Key=file_name)
+# print(f"Silindi: {file_name}")
 
